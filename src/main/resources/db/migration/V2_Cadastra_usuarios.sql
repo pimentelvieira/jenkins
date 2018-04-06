@@ -1,0 +1,1 @@
+INSERT INTO `jenkinsuat`.`usuario` (`id`, `nome`) VALUES ('1', 'William');
