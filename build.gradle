@@ -1,6 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'maven'
 
+plugins {
+    id 'org.flywaydb.flyway' version '5.0.7'
+}
+
 group = 'br.com.william'
 version = '0.0.1-SNAPSHOT'
 
@@ -8,10 +12,6 @@ description = """jenkins Maven Webapp"""
 
 sourceCompatibility = 1.5
 targetCompatibility = 1.5
-
-plugins {
-    id 'org.flywaydb.flyway' version '5.0.7'
-}
 
 repositories {
         
