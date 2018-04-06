@@ -9,7 +9,9 @@ description = """jenkins Maven Webapp"""
 sourceCompatibility = 1.5
 targetCompatibility = 1.5
 
-
+plugins {
+    id 'org.flywaydb.flyway' version '5.0.7'
+}
 
 repositories {
         
@@ -17,8 +19,4 @@ repositories {
 }
 dependencies {
     testCompile group: 'junit', name: 'junit', version:'3.8.1'
-}
-
-plugins {
-    id 'org.flywaydb.flyway' version '5.0.7'
 }
