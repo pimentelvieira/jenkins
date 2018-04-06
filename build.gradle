@@ -18,5 +18,6 @@ repositories {
      maven { url "http://repo.maven.apache.org/maven2" }
 }
 dependencies {
+	compile 'mysql:mysql-connector-java'
     testCompile group: 'junit', name: 'junit', version:'3.8.1'
 }
