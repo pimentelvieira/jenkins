@@ -1,0 +1,1 @@
+INSERT INTO `jenkinsprod`.`usuario` (`id`, `nome`) VALUES ('1', 'William');
